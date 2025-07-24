@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register ans login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+   <div class="container" id="signop">
+    <h1 class=""form-title>Register</h1>
+    <form method="post" action="">
+    <div class="input-group">
+<i class="fa-solid fa-circle-user"></i>
+<input type="text" name="fname" id="fname" placeholder="First Name" required>
+<label for="input">First name</label>
+</div>
+
+
+ <div class="input-group">
+<i class="fa-solid fa-circle-user"></i>
+<input type="text" name="lname" id="lname" placeholder="Last Name" required>
+<label for="input">Last name</label>
+</div>
+
+ <div class="input-group">
+<i class="fa-solid fa-envelope"></i><input type="text" name="fname" id="fname" placeholder="Enter Email" required>
+<label for="input">Email Address</label>
+</div>
+
+ <div class="input-group">
+<i class="fas fa-lock"></i>
+<input type="password" name="password" id="password" placeholder="password" required>
+<label for="input">password</label>
+</div>
+<input type="submit" class="btn" value="signup" name="signup">
+</form>
+<p class="or">
+    ------------------or-----------------------
+</p>
+<div class="icons">
+    <i class="fab fa-google"></i>
+    <i class="fab fa-facebook"></i>
+</div>
+<div class="links">
+    <p>Already Have Accounts ?</p>
+    <button id="signInButton">Sign In</button>
+
+</div>
+
+   </div>
+   ----------
+
+    <div class="container" id="signop">
+    <h1 class=""form-title>Sign In</h1>
+    <form method="post" action="">
+    <div class="input-group">
+
+ <div class="input-group">
+<i class="fa-solid fa-envelope"></i>
+<input type="text" name="fname" id="fname" placeholder="Enter Email" required>
+<label for="input">Email Address</label>
+</div>
+
+<div class="input-group">
+<i class="fas fa-lock"></i>
+<input type="password" name="password" id="password" placeholder="password" required>
+<label for="input">password</label>
+</div>
+<p>
+    <a href="#">Recover password</a>
+</p>
+<input type="submit" class="btn" value="sign in" name="signin">
+</form>
+<p class="or">
+    ------------------or-----------------------
+</p>
+<div class="icons">
+    <i class="fab fa-google"></i>
+    <i class="fab fa-facebook"></i>
+</div>
+<div class="links">
+    <p>Don't Have Accounts Yet ?</p>
+    <button id="signUpButton">Sign Up</button>
+</div>
+</body>
+</html>
